@@ -6,8 +6,8 @@ $(function(){
 
   nums.forEach(function(num) {
     suits.forEach(function(suit) {
-      var deck = $("<li>" + num + " of " + suit + "</li>")
-      $("ul#deck").prepend(deck);
+      var deck = $("<li>" + num + " of " + suit + "</li>");
+      $("#deck").prepend(deck);
       });
     });
 });
